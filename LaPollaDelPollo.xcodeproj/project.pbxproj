@@ -64,19 +64,43 @@
 		2DC060A8285BE9EE00D015B4 /* LaPollaDelPollo */ = {
 			isa = PBXGroup;
 			children = (
-				2DC060A9285BE9EE00D015B4 /* AppDelegate.swift */,
-				2DC060AB285BE9EE00D015B4 /* SceneDelegate.swift */,
+				2DC060F1285EDCF900D015B4 /* Model */,
+				2DC060F0285EDCEB00D015B4 /* Common */,
+				2DC060EF285EDCE300D015B4 /* ViewController */,
 				2DC060BD285BFFC100D015B4 /* Feature-Login.storyboard */,
 				2DC060BF285BFFF900D015B4 /* Feature-Splash.storyboard */,
 				2DC060C1285C003F00D015B4 /* ModalViewController.swift */,
-				2DC060C3285C009E00D015B4 /* LoginViewController.swift */,
-				2DC060AD285BE9EE00D015B4 /* ViewController.swift */,
 				2DC060AF285BE9EE00D015B4 /* Main.storyboard */,
 				2DC060B2285BE9F000D015B4 /* Assets.xcassets */,
 				2DC060B4285BE9F000D015B4 /* LaunchScreen.storyboard */,
 				2DC060B7285BE9F000D015B4 /* Info.plist */,
 			);
 			path = LaPollaDelPollo;
+			sourceTree = "<group>";
+		};
+		2DC060EF285EDCE300D015B4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2DC060C3285C009E00D015B4 /* LoginViewController.swift */,
+				2DC060AD285BE9EE00D015B4 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2DC060F0285EDCEB00D015B4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2DC060A9285BE9EE00D015B4 /* AppDelegate.swift */,
+				2DC060AB285BE9EE00D015B4 /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2DC060F1285EDCF900D015B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
