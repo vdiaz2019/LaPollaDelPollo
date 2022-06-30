@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D199B13286C957700017857 /* InvitacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D199B12286C957700017857 /* InvitacionViewController.swift */; };
+		2D56AA9A28695CAF00946970 /* Feature-Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D56AA9928695CAF00946970 /* Feature-Home.storyboard */; };
+		2D56AA9C286BCDBF00946970 /* HomeTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D56AA9B286BCDBF00946970 /* HomeTabController.swift */; };
+		2D56AA9E286BCDFB00946970 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D56AA9D286BCDFB00946970 /* HomeViewController.swift */; };
+		2D56AAA0286BCE1700946970 /* ApuestaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D56AA9F286BCE1700946970 /* ApuestaViewController.swift */; };
+		2DA6085E286E0B9C0064DF07 /* UIRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA6085D286E0B9B0064DF07 /* UIRoundButton.swift */; };
+		2DA60860286E0C580064DF07 /* UIViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA6085F286E0C580064DF07 /* UIViewCustom.swift */; };
 		2DC060AA285BE9EE00D015B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC060A9285BE9EE00D015B4 /* AppDelegate.swift */; };
-		2DC060AC285BE9EE00D015B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC060AB285BE9EE00D015B4 /* SceneDelegate.swift */; };
 		2DC060AE285BE9EE00D015B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC060AD285BE9EE00D015B4 /* ViewController.swift */; };
 		2DC060B1285BE9EE00D015B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC060AF285BE9EE00D015B4 /* Main.storyboard */; };
 		2DC060B3285BE9F000D015B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC060B2285BE9F000D015B4 /* Assets.xcassets */; };
@@ -20,9 +26,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D199B12286C957700017857 /* InvitacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitacionViewController.swift; sourceTree = "<group>"; };
+		2D56AA9928695CAF00946970 /* Feature-Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Feature-Home.storyboard"; sourceTree = "<group>"; };
+		2D56AA9B286BCDBF00946970 /* HomeTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabController.swift; sourceTree = "<group>"; };
+		2D56AA9D286BCDFB00946970 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2D56AA9F286BCE1700946970 /* ApuestaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApuestaViewController.swift; sourceTree = "<group>"; };
+		2DA6085D286E0B9B0064DF07 /* UIRoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIRoundButton.swift; sourceTree = "<group>"; };
+		2DA6085F286E0C580064DF07 /* UIViewCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewCustom.swift; sourceTree = "<group>"; };
 		2DC060A6285BE9EE00D015B4 /* LaPollaDelPollo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaPollaDelPollo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC060A9285BE9EE00D015B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DC060AB285BE9EE00D015B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2DC060AD285BE9EE00D015B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DC060B0285BE9EE00D015B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DC060B2285BE9F000D015B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,9 +79,12 @@
 				2DC060F1285EDCF900D015B4 /* Model */,
 				2DC060F0285EDCEB00D015B4 /* Common */,
 				2DC060EF285EDCE300D015B4 /* ViewController */,
+				2D56AA9928695CAF00946970 /* Feature-Home.storyboard */,
 				2DC060BD285BFFC100D015B4 /* Feature-Login.storyboard */,
 				2DC060BF285BFFF900D015B4 /* Feature-Splash.storyboard */,
 				2DC060C1285C003F00D015B4 /* ModalViewController.swift */,
+				2DA6085D286E0B9B0064DF07 /* UIRoundButton.swift */,
+				2DA6085F286E0C580064DF07 /* UIViewCustom.swift */,
 				2DC060AF285BE9EE00D015B4 /* Main.storyboard */,
 				2DC060B2285BE9F000D015B4 /* Assets.xcassets */,
 				2DC060B4285BE9F000D015B4 /* LaunchScreen.storyboard */,
@@ -83,6 +98,10 @@
 			children = (
 				2DC060C3285C009E00D015B4 /* LoginViewController.swift */,
 				2DC060AD285BE9EE00D015B4 /* ViewController.swift */,
+				2D56AA9B286BCDBF00946970 /* HomeTabController.swift */,
+				2D56AA9D286BCDFB00946970 /* HomeViewController.swift */,
+				2D56AA9F286BCE1700946970 /* ApuestaViewController.swift */,
+				2D199B12286C957700017857 /* InvitacionViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -91,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				2DC060A9285BE9EE00D015B4 /* AppDelegate.swift */,
-				2DC060AB285BE9EE00D015B4 /* SceneDelegate.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -161,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D56AA9A28695CAF00946970 /* Feature-Home.storyboard in Resources */,
 				2DC060B6285BE9F000D015B4 /* LaunchScreen.storyboard in Resources */,
 				2DC060C0285BFFF900D015B4 /* Feature-Splash.storyboard in Resources */,
 				2DC060BE285BFFC100D015B4 /* Feature-Login.storyboard in Resources */,
@@ -178,9 +197,14 @@
 			files = (
 				2DC060C2285C003F00D015B4 /* ModalViewController.swift in Sources */,
 				2DC060AE285BE9EE00D015B4 /* ViewController.swift in Sources */,
+				2DA6085E286E0B9C0064DF07 /* UIRoundButton.swift in Sources */,
+				2DA60860286E0C580064DF07 /* UIViewCustom.swift in Sources */,
 				2DC060AA285BE9EE00D015B4 /* AppDelegate.swift in Sources */,
 				2DC060C4285C009E00D015B4 /* LoginViewController.swift in Sources */,
-				2DC060AC285BE9EE00D015B4 /* SceneDelegate.swift in Sources */,
+				2D199B13286C957700017857 /* InvitacionViewController.swift in Sources */,
+				2D56AAA0286BCE1700946970 /* ApuestaViewController.swift in Sources */,
+				2D56AA9C286BCDBF00946970 /* HomeTabController.swift in Sources */,
+				2D56AA9E286BCDFB00946970 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -312,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -334,9 +358,12 @@
 				INFOPLIST_FILE = LaPollaDelPollo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "Feature-Login";
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,9 +389,12 @@
 				INFOPLIST_FILE = LaPollaDelPollo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "Feature-Login";
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
